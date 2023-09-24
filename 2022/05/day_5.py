@@ -29,7 +29,7 @@ original_stacks[9] = ['G', 'L', 'D']
 
 
 def get_procedure():
-    with open("/Volumes/Macintosh HD/Code/AdventOfCode/2022/input_5.txt", 'r') as file:
+    with open("input.txt", 'r') as file:
         procedure = file.read().split('\n')
         procedure_numbers = []
         for step in procedure:

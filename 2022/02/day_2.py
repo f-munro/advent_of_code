@@ -12,7 +12,7 @@
 # Z Win
 
 def get_guide():
-    with open("/Volumes/Macintosh HD/Code/AdventOfCode/2022/input_2.txt", 'r') as file:
+    with open("input.txt", 'r') as file:
         strategy_guide = file.read().split('\n')
         list = []
         for round in strategy_guide:

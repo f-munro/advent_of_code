@@ -2,7 +2,7 @@
 # Day 1
 
 def elf_calorie_totals():
-    with open("/Volumes/Macintosh HD/Code/AdventOfCode/2022/input_1.txt", 'r') as file:
+    with open("input.txt", 'r') as file:
         elves = file.read().split('\n\n')
 
         calorie_totals = []

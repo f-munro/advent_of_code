@@ -3,7 +3,7 @@
 
 # Get the assignments as a list of tuple pairs
 def get_assignments():
-    with open("/Volumes/Macintosh HD/Code/AdventOfCode/2022/input_4.txt", 'r') as file:
+    with open("input.txt", 'r') as file:
         assignments = file.read().split('\n')
         assignment_tuples = []
         for line in assignments:

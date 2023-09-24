@@ -2,7 +2,7 @@
 # Day 6
 
 def get_datastream():
-    with open("/Volumes/Macintosh HD/Code/AdventOfCode/2022/input_6.txt", 'r') as file:
+    with open("input.txt", 'r') as file:
         datastream = file.read()
     return datastream
 

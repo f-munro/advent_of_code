@@ -9,7 +9,7 @@ letters_2 = {chr(i + 38): i for i in range(27, 53)}
 letters.update(letters_2)
 
 def get_rucksacks():
-       with open("/Volumes/Macintosh HD/Code/AdventOfCode/2022/input_3.txt", 'r') as file:
+       with open("input.txt", 'r') as file:
             # Get all the rucksacks:
             rucksacks = file.read().split('\n')
             return rucksacks
