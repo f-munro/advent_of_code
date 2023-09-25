@@ -75,7 +75,3 @@ space_needed = update - free_space
 print(f"free space:{free_space}")
 print(f"space required:{space_needed}")
 print(f"smallest directory :{ans['smallest dir']}")
-
-
-# Try: compare each dir to the size needed, keeping the one with the smallest
-# remainder. Like,  save the remainder and compare each dir against that?
