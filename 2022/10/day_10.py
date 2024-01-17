@@ -49,4 +49,3 @@ def signal_strength():
 
 
 print(f"Sum of signal strengths: {signal_strength()}")
-
